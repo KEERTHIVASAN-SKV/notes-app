@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(135deg, #f8ede3, #f9dcc4);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.app-title {
+    font-weight: 600;
+    color: #5c5470;
+    letter-spacing: 1px;
+}
+
+.form-card {
+    border-radius: 20px;
+    background: #ffffff;
+}
+
+.form-input {
+    border-radius: 12px;
+    border: 1px solid #ddd;
+}
+
+.form-input:focus {
+    box-shadow: none;
+    border-color: #5c5470;
+}
+
+.btn-save {
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.note-card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.note-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.1);
+}
+
+.note-title {
+    font-weight: 600;
+    color: #352f44;
+}
+
+.note-desc {
+    color: #5c5470;
+    font-size: 14px;
+}
+
+.note-actions {
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .note-card {
+        margin-bottom: 15px;
+    }
+}
